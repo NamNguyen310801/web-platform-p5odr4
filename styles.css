@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: rgb(92, 189, 238);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.counter {
+  padding: 20px 40px;
+  font-size: 30px;
+  color: #fff;
+  background: rgb(128, 23, 105);
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin: 10px;
+}
+.counter h1 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
